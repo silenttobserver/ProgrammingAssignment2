@@ -4,7 +4,12 @@
 ## Following are a pair of functions which calculate the inverse of a matrix and
 ## also cache the result for future reference.
 
-## The following is used to create a matrix which will be inversed and cached
+# The following is used to create a matrix which will be inversed and cached.
+# It does the following:
+#   1. set the value of the matrix
+#   2. get the value of the matrix
+#   3. set the value of inverse of the matrix
+#   4. get the value of inverse of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
